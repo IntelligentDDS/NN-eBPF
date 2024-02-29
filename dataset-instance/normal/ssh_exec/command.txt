@@ -1,0 +1,54 @@
+ping -w 5 www.apple.com
+ping -w 5 www.microsoft.com
+ping -w 5 www.github.com
+ping -w 5 www.bing.com
+ps -aux | grep ubuntu
+ps -aux
+ps -ef | grep ubuntu
+ps -ef
+curl -X GET https://www.apple.com
+curl -ki https://www.apple.com
+curl -X GET https://www.kernel.org
+curl -ki https://www.kernel.org
+docker info
+docker ps
+docker container ls
+docker image ls
+df -h
+cd ~/
+ls -al /usr/bin
+ls /usr/share
+ls -l .
+ls ..
+cat ~/.bashrc
+cat ~/.bash_history
+cat ~/.ssh/id_rsa.pub
+cat ~/.ssh/known_hosts
+free -h
+free -g
+free -m
+netstat -anp | grep tcp
+netstat -anp
+netstat -nlpt | grep tcp
+netstat -nlpt
+source ~/.bashrc
+ifconfig
+ifconfig lo
+tail ~/.bashrc
+tail ~/.ssh/id_rsa.pub
+pwd
+top -d 1 -n 5
+which ls
+which rm
+which docker
+which mkdir
+find /usr/bin -name ls
+find / -name docker
+find ~/ -name .bashrc
+find ~/ -name id_rsa.pub
+history
+uptime
+sudo systemctl status docker | grep Active
+sudo systemctl status apache2 | grep Active
+sudo systemctl status sshd | grep Active
+sudo systemctl status snapd | grep Active

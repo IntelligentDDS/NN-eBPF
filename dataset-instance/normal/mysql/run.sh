@@ -1,0 +1,3 @@
+mysqlslap -h33.33.33.220 -uroot -p12345678 --auto-generate-sql --only-print
+mysqlslap -uroot -pHangge_123 --concurrency=10 --number-of-queries=1000000 --create-schema=hangge --query="INSERT INTO people(name,age) VALUES (uuid(), RAND() * 100)"
+mysqlslap -h33.33.33.220 -uroot -p12345678 --concurrency=20 --number-int-cols=100 --number-char-cols=100 --number-of-queries=2000 --auto-generate-sql --auto-generate-sql-add-autoincrement --auto-generate-sql-load-type=mixed --engine=innodb --verbose

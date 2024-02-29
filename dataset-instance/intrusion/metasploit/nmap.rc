@@ -1,0 +1,4 @@
+use auxiliary/scanner/portscan/tcp
+set rhost 33.33.33.220
+run
+nmap 33.33.33.220

