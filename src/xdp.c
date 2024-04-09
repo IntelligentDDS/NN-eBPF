@@ -100,7 +100,7 @@ int main(int argc, char **argv)
         }
     }
 
-    //  更新nn index
+    //  update nn index
     int32_t nn_idx = 0;
     int32_t nn_idx_value = 1;
 

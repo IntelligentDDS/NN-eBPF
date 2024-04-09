@@ -24,7 +24,6 @@ static inline int flow_tuple(struct xdp_md *ctx, struct flow *f)
     void *data = (void *)(long)ctx->data;
     void *data_end = (void *)(long)ctx->data_end;
 
-    // 检查是否是以太网报文
     struct ethhdr *eth = data;
 
     if (eth + 1 > (struct ethhdr *)data_end)
@@ -32,7 +31,6 @@ static inline int flow_tuple(struct xdp_md *ctx, struct flow *f)
         return -1;
     }
 
-    // 检查是否是ip数据报
     if (eth->h_proto != bpf_htons(ETH_P_IP))
     {
         return -1;
@@ -44,7 +42,6 @@ static inline int flow_tuple(struct xdp_md *ctx, struct flow *f)
         return -1;
     }
 
-    // 检查是否是TCP报文
     if (ip->protocol != IPPROTO_TCP)
     {
         return -1;
